@@ -1,0 +1,156 @@
+/* Цвет основного текста #212121  */
+/* вторичный цвет #757575 */
+/* акцент #2196F3 */
+/* белый #FFFFFF */
+/* цвет основной в лого хедер #000000 */
+/* цвет основной в лого футер #FFFFFF */
+/* основной цвет фона #FFFFFF */
+/* вторичный цвет фона #F5F4FA */
+/* цвет фона хедер #FFFFFF */
+/* цвет фона футер и блок Hero #2F303A */
+/* цвет телефона и емейл в футере rgba(255, 255, 255, 0,6) */
+
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --contact-text-color: rgba(255, 255, 255, 0, 6);
+  --regular-white-color: #ffffff;
+  --regular-black-color: #000000;
+  --primary-background-color: #ffffff;
+  --secondary-background-color: #f5f4fa;
+  --hero-background-color: #2f303a;
+}
+body {
+  background-color: var(--primary-background-color);
+  color: var(--primary-text-color);
+}
+/* Лого */
+.logo {
+  color: var(--accent-color);
+}
+.logo-header {
+  color: var(--regular-black-color);
+}
+.logo-footer {
+  color: var(--regular-white-color);
+}
+
+/* Header */
+/* Основная навигация */
+.nav-list {
+  list-style: none;
+}
+.nav-link {
+  color: var(--title-text-color);
+}
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--accent-color);
+}
+.nav-link.current {
+  color: var(--accent-color);
+}
+
+/* Контактная информация */
+.contact {
+  list-style: none;
+}
+.contact-link {
+  color: var(--primary-text-color);
+}
+.contact-link:hover,
+.contact-link:focus {
+  color: var(--accent-color);
+}
+
+/* Основной баннер */
+.hero {
+  background-color: var(--hero-background-color);
+}
+.hero-title {
+  color: var(--regular-white-color);
+}
+.hero-button {
+  color: var(--regular-white-color);
+  background-color: var(--accent-color);
+  cursor: pointer;
+}
+
+/* Наши преимущества */
+.features-list {
+  list-style: none;
+}
+.features-title {
+  color: var(--title-text-color);
+}
+.features-subtitle {
+  color: var(--title-text-color);
+}
+
+/* Чем мы занимаемся */
+.work-list {
+  list-style: none;
+}
+.work-title {
+  color: var(--title-text-color);
+}
+
+/* Наша команда */
+.team {
+  background-color: var(--secondary-background-color);
+}
+.team-list {
+  list-style: none;
+}
+.team-title {
+  color: var(--title-text-color);
+}
+.team-subtitle {
+  color: var(--title-text-color);
+}
+.team-text {
+  color: var(--primary-text-color);
+}
+
+/* Footer */
+.footer {
+  background-color: var(--hero-background-color);
+}
+.footer-list {
+  list-style: none;
+}
+.footer-link.adress {
+  color: var(--regular-white-color);
+}
+.footer-link {
+  color: var(--contact-text-color);
+}
+.footer-link:hover,
+.footer-link:focus {
+  color: var(--accent-color);
+}
+
+/* Портфолио */
+/* Портфолио button */
+.filtre-button {
+  color: var(--title-text-color);
+  background-color: var(--secondary-background-color);
+  cursor: pointer;
+}
+.filtre-button:hover,
+.filtre-button:focus {
+  color: var(--regular-white-color);
+  background-color: var(--accent-color);
+}
+
+/* Примеры работ */
+.examples-list {
+  list-style: none;
+}
+.examples-subtitle {
+  color: var(--title-text-color);
+}
+.examples-text {
+  color: var(--primary-text-color);
+}

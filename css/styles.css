@@ -25,6 +25,16 @@ body {
   background-color: var(--primary-background-color);
   color: var(--primary-text-color);
 }
+.list {
+  list-style: none;
+}
+.title {
+  color: var(--title-text-color);
+}
+.subtitle {
+  color: var(--title-text-color);
+}
+
 /* Лого */
 .logo {
   color: var(--accent-color);
@@ -38,9 +48,6 @@ body {
 
 /* Header */
 /* Основная навигация */
-.nav-list {
-  list-style: none;
-}
 .nav-link {
   color: var(--title-text-color);
 }
@@ -78,36 +85,12 @@ body {
 }
 
 /* Наши преимущества */
-.features-list {
-  list-style: none;
-}
-.features-title {
-  color: var(--title-text-color);
-}
-.features-subtitle {
-  color: var(--title-text-color);
-}
 
 /* Чем мы занимаемся */
-.work-list {
-  list-style: none;
-}
-.work-title {
-  color: var(--title-text-color);
-}
 
 /* Наша команда */
 .team {
   background-color: var(--secondary-background-color);
-}
-.team-list {
-  list-style: none;
-}
-.team-title {
-  color: var(--title-text-color);
-}
-.team-subtitle {
-  color: var(--title-text-color);
 }
 .team-text {
   color: var(--primary-text-color);
@@ -116,9 +99,6 @@ body {
 /* Footer */
 .footer {
   background-color: var(--hero-background-color);
-}
-.footer-list {
-  list-style: none;
 }
 .footer-link.adress {
   color: var(--regular-white-color);
@@ -145,12 +125,6 @@ body {
 }
 
 /* Примеры работ */
-.examples-list {
-  list-style: none;
-}
-.examples-subtitle {
-  color: var(--title-text-color);
-}
 .examples-text {
   color: var(--primary-text-color);
 }

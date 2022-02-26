@@ -84,13 +84,13 @@ body {
 .hero {
   color: var(--regular-white-color);
   background-color: var(--hero-background-color);
+  text-align: center;
 }
 .hero-title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   letter-spacing: 0.06em;
-  text-align: center;
   text-transform: uppercase;
 }
 .hero-button {
@@ -100,7 +100,6 @@ body {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.06em;
-  text-align: center;
 }
 
 /* Наши преимущества */

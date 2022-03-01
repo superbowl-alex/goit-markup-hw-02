@@ -5,6 +5,7 @@
   --contact-text-color: rgba(255, 255, 255, 0, 6);
   --regular-white-color: #ffffff;
   --regular-black-color: #000000;
+  --hero-button-hover-color: #188ce8;
   --primary-background-color: #ffffff;
   --secondary-background-color: #f5f4fa;
   --hero-background-color: #2f303a;
@@ -100,6 +101,10 @@ body {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.06em;
+}
+.hero-button:hover,
+.hero-button:focus {
+  color: var(--hero-button-hover-color);
 }
 
 /* Наши преимущества */

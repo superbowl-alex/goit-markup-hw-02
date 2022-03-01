@@ -95,6 +95,7 @@ body {
   text-transform: uppercase;
 }
 .hero-button {
+  color: var(--regular-white-color);
   background-color: var(--accent-color);
   cursor: pointer;
   font-weight: 700;
@@ -104,7 +105,7 @@ body {
 }
 .hero-button:hover,
 .hero-button:focus {
-  color: var(--hero-button-hover-color);
+  background-color: var(--hero-button-hover-color);
 }
 
 /* Наши преимущества */

@@ -2,7 +2,7 @@
   --primary-text-color: #757575;
   --title-text-color: #212121;
   --accent-color: #2196f3;
-  --contact-text-color: rgba(255, 255, 255, 0, 6);
+  --contact-text-color: rgba(255, 255, 255, 0.6);
   --regular-white-color: #ffffff;
   --regular-black-color: #000000;
   --hero-button-hover-color: #188ce8;
@@ -27,8 +27,6 @@ body {
 }
 .subtitle {
   color: var(--title-text-color);
-  font-size: 16px;
-  line-height: 1.19;
 }
 .button {
   font-family: inherit;
@@ -64,7 +62,11 @@ body {
   text-decoration: none;
 }
 .nav-link:hover,
-.nav-link:focus {
+.nav-link:focus,
+.contact-link:hover,
+.contact-link:focus,
+.footer-link:hover,
+.footer-link:focus {
   color: var(--accent-color);
 }
 .nav-link.current {
@@ -75,10 +77,6 @@ body {
 .contact-link {
   color: var(--primary-text-color);
   text-decoration: none;
-}
-.contact-link:hover,
-.contact-link:focus {
-  color: var(--accent-color);
 }
 
 /* Основной баннер */
@@ -102,6 +100,7 @@ body {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.06em;
+  border-radius: 4px;
 }
 .hero-button:hover,
 .hero-button:focus {
@@ -112,13 +111,19 @@ body {
 .features-title {
   display: none;
 }
-
+.features-subtitle {
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
 /* Наша команда */
 .team {
   background-color: var(--secondary-background-color);
 }
 .team-subtitle {
   font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
   text-align: center;
 }
 .team-text {
@@ -144,10 +149,6 @@ body {
   color: var(--contact-text-color);
   text-decoration: none;
 }
-.footer-link:hover,
-.footer-link:focus {
-  color: var(--accent-color);
-}
 
 /* Портфолио */
 /* Портфолио button */
@@ -161,6 +162,7 @@ body {
   text-align: center;
   letter-spacing: inherit;
 }
+.filtre-button.current,
 .filtre-button:hover,
 .filtre-button:focus {
   color: var(--regular-white-color);
